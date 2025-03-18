@@ -21,7 +21,7 @@ const DishData = ({imageId, index}) => (
 
 const ResData = ( {imageId, index, name, avgRating, avgRatingString, cuisines, costForTwo, time}) => (
     <div
-      className="w-64 flex flex-col p-4 shadow-lg cursor-pointer rounded-lg justify-center mx-6 my-5 flex-shrink-0 transition-transform transform hover:scale-105 hover:bg-slate-100"
+      className="w-64 flex flex-col p-4 shadow-lg cursor-pointer rounded-lg justify-center mx-3 my-5 flex-shrink-0 transition-transform transform hover:scale-105 hover:bg-slate-100"
     >
       <div className='h-32'>
         <img
